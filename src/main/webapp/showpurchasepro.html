@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Show Purchase Property</title>
+    <style>
+        body {
+            
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        h2 {
+            color:black;
+        }
+        h3 {
+            color: red;
+        }
+        h4 {
+            color: green;
+        }
+        a {
+            text-decoration: none;
+            color: #0000FF;
+        }
+        table {
+            margin: 0 auto;
+            width: 60%;
+            background-color: #F2F2F2;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        input[type="text"], input[type="submit"] {
+            padding: 10px;
+            margin: 5px 0;
+            width: 80%;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h2><b>Search Purchase Property Information</b></h2>
+        <hr>
+        <form name="frm" method="post" action="purchproresult.jsp" style="padding:50px 0 ">
+            <table>
+                <tr>
+                    <td><br><b>Enter Purchase Property Name</b></td>
+                    <td><br><input type="text" name="pnme" placeholder="Property Name" required></td>
+                </tr>
+                <tr>
+                    <td><br><b>Enter Your Name</b></td>
+                    <td><br><input type="text" name="nme" placeholder="Your Name" required></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><br><input type="submit" value="Search"></td>
+                </tr>
+            </table>
+            <br><br>
+            <br><br>
+            
+            
+            
+        </form>
+    </center>
+</body>
+</html>
